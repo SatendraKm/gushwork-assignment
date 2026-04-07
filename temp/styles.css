@@ -290,7 +290,7 @@ ul {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 900;
   background: var(--color-white);
   border-bottom: 1px solid var(--color-border);
   box-shadow: var(--shadow-md);
@@ -300,7 +300,7 @@ ul {
 }
 
 .sticky-header.is-visible {
-  transform: translateY(0);
+  transform: translateY(var(--navbar-height));
 }
 
 .sticky-header__inner {
@@ -359,15 +359,10 @@ ul {
 .navbar {
   position: sticky;
   top: 0;
-  z-index: 900;
+  z-index: 1000;
   background: var(--color-white);
   border-bottom: 1px solid var(--color-border);
   transition: top var(--transition-slow);
-}
-
-/* When sticky header is visible, push nav down */
-.navbar.sticky-offset {
-  top: var(--sticky-header-height);
 }
 
 .navbar__inner {

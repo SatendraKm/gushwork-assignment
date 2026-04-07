@@ -1,0 +1,29 @@
+/* ============================================
+   TYPOGRAPHY UTILITIES
+============================================ */
+.section-title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+}
+
+.section-title--light {
+  color: var(--color-white);
+}
+
+.section-sub {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin-bottom: var(--space-xl);
+}
+
+.section-sub--light {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.text-accent {
+  color: var(--color-text-accent);
+}

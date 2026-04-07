@@ -1,0 +1,62 @@
+/* ============================================
+   CTA BANNER
+============================================ */
+.cta-banner {
+  padding: var(--space-3xl) 0;
+  background: var(--color-bg);
+}
+
+.cta-banner__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+  align-items: center;
+  background: var(--color-primary);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl);
+  overflow: hidden;
+  position: relative;
+}
+
+.cta-banner__title {
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+}
+
+.cta-banner__sub {
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: var(--space-md);
+}
+
+.cta-banner__contact {
+  font-size: var(--font-size-xs);
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}
+
+.cta-banner__link {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
+}
+
+.cta-banner__form-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+}
+
+.contact-form__title {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+}
+
+.contact-form__fields {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}

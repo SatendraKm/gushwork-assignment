@@ -1,0 +1,45 @@
+/* ============================================
+   RESOURCES
+============================================ */
+.resources {
+  padding: var(--space-3xl) 0;
+  background: var(--color-white);
+}
+
+.resources .section-title,
+.resources .section-sub {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resources__list {
+  max-width: 680px;
+  margin: 0 auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.resource-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-lg);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-white);
+  transition: background var(--transition-fast);
+}
+
+.resource-item:last-child {
+  border-bottom: none;
+}
+
+.resource-item:hover {
+  background: var(--color-bg);
+}
+
+.resource-item__name {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+}

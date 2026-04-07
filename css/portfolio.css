@@ -1,0 +1,95 @@
+/* ============================================
+   PORTFOLIO
+============================================ */
+.portfolio {
+  padding: var(--space-3xl) 0;
+  background: var(--color-bg);
+}
+
+.portfolio .section-title,
+.portfolio .section-sub {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+.portfolio-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: box-shadow var(--transition-base);
+}
+
+.portfolio-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.portfolio-card__body {
+  padding: var(--space-lg);
+}
+
+.portfolio-card__title {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+
+.portfolio-card__text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.portfolio-card__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-card__footer {
+  padding: var(--space-md) var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.portfolio-card__footer .btn--outline {
+  color: var(--color-primary);
+  border-color: var(--color-border);
+  font-size: var(--font-size-sm);
+}
+
+.portfolio-card__footer .btn--outline:hover {
+  border-color: var(--color-primary);
+}
+
+/* Not found banner */
+.not-found-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg) var(--space-xl);
+  flex-wrap: wrap;
+}
+
+.not-found-banner p {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+
+.not-found-banner__sub {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  margin-top: 2px;
+}
