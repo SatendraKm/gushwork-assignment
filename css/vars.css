@@ -7,7 +7,7 @@
   --color-primary-dark: #202d82;
   --color-primary-light: #2d4fa8;
   --color-accent: #2563eb; /* Bright blue for icons/accents */
-  --color-text-accent: #2563eb; /* Blue used in "Frequently" highlight */
+  --color-text-accent: #2b3990; /* Blue used in "Frequently" highlight */
 
   /* Neutrals */
   --color-white: #ffffff;
@@ -18,7 +18,7 @@
   --color-text-primary: #111827;
   --color-text-secondary: #4b5563;
   --color-text-muted: #6a7077;
-  --color-border: #cfd1d4;
+  --color-border: #e1e3e8;
   --color-border-dark: #d1d5db;
 
   /* Tag colors */
