@@ -7,17 +7,18 @@
   --color-primary-dark: #202d82;
   --color-primary-light: #2d4fa8;
   --color-accent: #2563eb; /* Bright blue for icons/accents */
-  --color-text-accent: #2563eb; /* Blue used in "Frequently" highlight */
+  --color-text-accent: #2b3990; /* Blue used in "Frequently" highlight */
 
   /* Neutrals */
   --color-white: #ffffff;
   --color-bg: #f8f8f8;
+  --color-bg-text: #f3f4f6;
   --color-bg-section: #f4f4f5;
   --color-dark-section: #111827; /* Tech specs dark bg */
   --color-text-primary: #111827;
   --color-text-secondary: #4b5563;
-  --color-text-muted: #9ca3af;
-  --color-border: #e5e7eb;
+  --color-text-muted: #6a7077;
+  --color-border: #e1e3e8;
   --color-border-dark: #d1d5db;
 
   /* Tag colors */

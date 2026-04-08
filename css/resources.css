@@ -4,6 +4,7 @@
 .resources {
   padding: var(--space-3xl) 0;
   background: var(--color-white);
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='turbulence' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.12'/%3E%3C/svg%3E");
 }
 
 .resources .section-title,
@@ -14,7 +15,7 @@
 }
 
 .resources__list {
-  max-width: 680px;
+  max-width: 100%;
   margin: 0 auto;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -25,15 +26,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--space-md) var(--space-lg);
-  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-sm) var(--space-md);
+  /* border-bottom: 1px solid var(--color-border); */
   background: var(--color-white);
   transition: background var(--transition-fast);
 }
 
-.resource-item:last-child {
+/* .resource-item:last-child {
   border-bottom: none;
-}
+} */
 
 .resource-item:hover {
   background: var(--color-bg);

@@ -2,8 +2,8 @@
    MAIN STYLESHEET - IMPORTS ALL MODULES
    ============================================ */
 
-/* Google Fonts - Inter */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+/* Google Fonts - Inter & Urbanist */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Urbanist:wght@600;700;800&display=swap");
 
 /* Design tokens and variables */
 @import url("./vars.css");
