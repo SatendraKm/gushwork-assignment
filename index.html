@@ -699,6 +699,7 @@
                 across diverse applications.
               </p>
             </div>
+            <!-- Carousel navigation -->
             <div
               class="applications__nav"
               role="group"
@@ -709,11 +710,18 @@
                 id="appsCarouselPrev"
                 aria-label="Previous applications"
               >
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
-                    d="M12 4l-6 6 6 6"
+                    d="M19 12H5"
                     stroke="currentColor"
-                    stroke-width="1.5"
+                    stroke-width="1.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M11 6l-6 6 6 6"
+                    stroke="currentColor"
+                    stroke-width="1.2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -724,11 +732,18 @@
                 id="appsCarouselNext"
                 aria-label="Next applications"
               >
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path
-                    d="M8 4l6 6-6 6"
+                    d="M5 12h14"
                     stroke="currentColor"
-                    stroke-width="1.5"
+                    stroke-width="1.2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13 6l6 6-6 6"
+                    stroke="currentColor"
+                    stroke-width="1.2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -748,7 +763,7 @@
           <div class="apps-carousel__track" id="appsTrack">
             <article class="app-card" tabindex="0">
               <img
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80"
+                src="assets/AppContent.png"
                 alt="Fishnet Manufacturing"
                 class="app-card__img"
                 loading="lazy"
@@ -766,7 +781,7 @@
             </article>
             <article class="app-card" tabindex="0">
               <img
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&q=80"
+                src="assets/AppContent.png"
                 alt="Fishnet Manufacturing"
                 class="app-card__img"
                 loading="lazy"
@@ -779,12 +794,13 @@
                   packaging applications.
                 </p>
               </div>
+              <!-- Zoom preview -->
               <div class="app-card__zoom" aria-hidden="true"></div>
             </article>
             <article class="app-card" tabindex="0">
               <img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
-                alt="Industrial Manufacturing"
+                src="assets/AppContent.png"
+                alt="Fishnet Manufacturing"
                 class="app-card__img"
                 loading="lazy"
               />
@@ -796,12 +812,13 @@
                   packaging applications.
                 </p>
               </div>
+              <!-- Zoom preview -->
               <div class="app-card__zoom" aria-hidden="true"></div>
             </article>
             <article class="app-card" tabindex="0">
               <img
-                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80"
-                alt="Construction Applications"
+                src="assets/AppContent.png"
+                alt="Fishnet Manufacturing"
                 class="app-card__img"
                 loading="lazy"
               />
@@ -813,12 +830,13 @@
                   packaging applications.
                 </p>
               </div>
+              <!-- Zoom preview -->
               <div class="app-card__zoom" aria-hidden="true"></div>
             </article>
             <article class="app-card" tabindex="0">
               <img
-                src="https://images.unsplash.com/photo-1590247813693-5541d1c609fd?w=600&q=80"
-                alt="Industrial Applications"
+                src="assets/AppContent.png"
+                alt="Fishnet Manufacturing"
                 class="app-card__img"
                 loading="lazy"
               />
@@ -830,12 +848,13 @@
                   packaging applications.
                 </p>
               </div>
+              <!-- Zoom preview -->
               <div class="app-card__zoom" aria-hidden="true"></div>
             </article>
             <article class="app-card" tabindex="0">
               <img
-                src="https://images.unsplash.com/photo-1565793979533-a66bfcd57634?w=600&q=80"
-                alt="Pipe Applications"
+                src="assets/AppContent.png"
+                alt="Fishnet Manufacturing"
                 class="app-card__img"
                 loading="lazy"
               />
@@ -847,6 +866,7 @@
                   packaging applications.
                 </p>
               </div>
+              <!-- Zoom preview -->
               <div class="app-card__zoom" aria-hidden="true"></div>
             </article>
           </div>
@@ -1565,7 +1585,7 @@
        FOOTER
   ======================================== -->
     <footer class="footer" role="contentinfo">
-      <div class="container footer__top">
+      <div class="container">
         <div class="footer__brand">
           <img
             src="assets/logo.png"
@@ -1574,11 +1594,15 @@
           />
           <p class="footer__tagline">
             Premium
-            <span class="text-accent">HDPE Pipes &amp; Fittings</span>
-            Manufacturer in South India
+            <span class="text-accent"
+              >HDPE Pipes &amp; Fittings<br />Manufacturer</span
+            >
+            in South India
           </p>
         </div>
+      </div>
 
+      <div class="container footer__top">
         <nav class="footer__nav" aria-label="Footer navigation">
           <div class="footer__col">
             <h4 class="footer__col-title">About Us</h4>
@@ -1604,28 +1628,73 @@
           </div>
           <div class="footer__col">
             <h4 class="footer__col-title">Contact</h4>
-            <p class="footer__link">
-              2125, Road No. 2, GIDC Sachin, Surat – 394 230 Gujarat, India
-            </p>
-            <a href="tel:+91XXXXXXXXXX" class="footer__link"
-              >+91-XXX-XXX-XXXX</a
-            >
-            <a href="mailto:info@meeraind.com" class="footer__link"
-              >info@meeraind.com</a
-            >
-            <a href="mailto:support@meeraind.com" class="footer__link"
-              >support@meeraind.com</a
-            >
+            <div class="footer__contact-item">
+              <img
+                src="assets/MapPinLine.svg"
+                alt="map pin"
+                width="24"
+                height="24"
+              />
+              <span
+                >2126, Road No. 2, GIDC Sachin, Surat - 394 230 Gujarat,
+                India</span
+              >
+            </div>
+            <div class="footer__contact-item">
+              <img src="assets/Phone.svg" alt="phone" width="24" height="24" />
+              <a href="tel:+91XXXXXXXXXX" class="footer__link" style="margin: 0"
+                >+91-XXX-XXX-XXXX</a
+              >
+            </div>
+            <div class="footer__contact-item">
+              <img
+                src="assets/EnvelopeSimple.svg"
+                alt="envelope"
+                width="24"
+                height="24"
+              />
+              <a
+                href="mailto:info@meeraind.com"
+                class="footer__link"
+                style="margin: 0"
+                >info@meeraind.com</a
+              >
+            </div>
+            <div class="footer__contact-item">
+              <img
+                src="assets/Headset.svg"
+                alt="headset"
+                width="24"
+                height="24"
+              />
+              <a
+                href="mailto:support@meeraind.com"
+                class="footer__link"
+                style="margin: 0"
+                >support@meeraind.com</a
+              >
+            </div>
+
             <div class="footer__social" aria-label="Social media links">
-              <a href="#" class="footer__social-link" aria-label="LinkedIn"
-                >in</a
-              >
-              <a href="#" class="footer__social-link" aria-label="Twitter/X"
-                >𝕏</a
-              >
-              <a href="#" class="footer__social-link" aria-label="Instagram"
-                >ig</a
-              >
+              <a href="#" class="" aria-label="LinkedIn">
+                <img
+                  src="assets/linkedIn.svg"
+                  alt="LinkedIn"
+                  width="16"
+                  height="16"
+                />
+              </a>
+              <a href="#" class="" aria-label="Twitter/X">
+                <img src="assets/x.svg" alt="X" width="16" height="16" />
+              </a>
+              <a href="#" class="" aria-label="Instagram">
+                <img
+                  src="assets/instagram.svg"
+                  alt="Instagram"
+                  width="16"
+                  height="16"
+                />
+              </a>
             </div>
           </div>
         </nav>
