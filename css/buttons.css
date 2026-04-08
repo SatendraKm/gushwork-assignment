@@ -7,7 +7,7 @@
   gap: var(--space-sm);
   padding: 14px 18px;
   font-size: var(--font-size-sm);
-  font-weight: 600;
+  font-weight: 300;
   border-radius: var(--radius-md);
   transition: all var(--transition-base);
   white-space: nowrap;
