@@ -3,14 +3,20 @@
 ============================================ */
 .hero {
   background: var(--color-bg);
-  padding: var(--space-2xl) 0;
+  padding: var(--space-lg) 0;
 }
 
 .hero__inner {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--space-2xl);
+  gap: var(--space-lg);
   align-items: start;
+}
+
+/* Breadcrumb spans full width */
+.hero__inner > .breadcrumb {
+  grid-column: 1 / -1;
+  margin-bottom: var(--space-lg);
 }
 
 /* Hero info */

@@ -18,13 +18,13 @@
 }
 
 /* Logo */
-.logo-mark {
+/* .logo-mark {
   display: flex;
   flex-direction: column;
   line-height: 1;
-}
+} */
 
-.logo-mark__top {
+/* .logo-mark__top {
   font-size: 18px;
   font-weight: 800;
   color: #8b1a1a;
@@ -37,7 +37,7 @@
   letter-spacing: 2px;
   color: var(--color-text-secondary);
   text-transform: uppercase;
-}
+} */
 
 /* Nav links */
 .navbar__links {
